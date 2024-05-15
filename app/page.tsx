@@ -33,6 +33,7 @@ export default function Home() {
           <li>NodeJS</li>
           <li>Github</li>
           <li>SQL</li>
+          <li>PostgreSQL</li>
           <li>PHP</li>
         </ul>
       </section>
