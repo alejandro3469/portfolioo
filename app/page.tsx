@@ -36,17 +36,17 @@ export default function Home() {
         <h3>Latest projects</h3>
         <div className="projects_list">
           <div className="project">
-            <div>Image</div>
+          <img src="/ES STUDIO_ VISUAL IDENTITY & WEB DESIGN.jpg" alt="" />
             <div>Lorem ipsum</div>
             <div>Excepteur sint occaecat cupidatat non proident</div>
           </div>
           <div className="project">
-            <div>Image</div>
+          <img src="/ES STUDIO_ VISUAL IDENTITY & WEB DESIGN.jpg" alt="" />
             <div>Lorem ipsum</div>
             <div>Excepteur sint occaecat cupidatat non proident</div>
           </div>
           <div className="project">
-            <div>Image</div>
+          <img src="/ES STUDIO_ VISUAL IDENTITY & WEB DESIGN.jpg" alt="" />
             <div>Lorem ipsum</div>
             <div>Excepteur sint occaecat cupidatat non proident</div>
           </div>
