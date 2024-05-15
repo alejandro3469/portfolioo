@@ -32,13 +32,14 @@ main{
     min-width: 200px;
 }
 .skills {
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
     gap: 8px;
     grid-template-columns: repeat(3, 1fr);
 }
 .skills li{
-    border: 1px solid rgba(0, 0, 0, 0.411);
-    padding: 4PX;
+    border: 1px solid rgba(0, 0, 0, 0.151);
+    padding: 4PX 8px;
     border-radius: 16px;
     font-size: 12px;
     text-align: center;
