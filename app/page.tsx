@@ -46,12 +46,12 @@ export default function Home() {
             <div>Excepteur sint occaecat cupidatat non proident</div>
           </div>
           <div className="project">
-          <img src="/ES STUDIO_ VISUAL IDENTITY & WEB DESIGN.jpg" alt="" />
+          <img src="/ES STUDIO_ VISUAL IDENTITY & WEB DESIGN (1).jpg" alt="" />
             <div>Lorem ipsum</div>
             <div>Excepteur sint occaecat cupidatat non proident</div>
           </div>
           <div className="project">
-          <img src="/ES STUDIO_ VISUAL IDENTITY & WEB DESIGN.jpg" alt="" />
+          <img src="/Social Templates - Natural State Kinesiology.jpg" alt="" />
             <div>Lorem ipsum</div>
             <div>Excepteur sint occaecat cupidatat non proident</div>
           </div>
