@@ -1,6 +1,15 @@
 import Image from "next/image";
-import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
+import { IoLogoJavascript } from "react-icons/io5";
+import { SiTypescript } from "react-icons/si";
+import { FaReact } from "react-icons/fa";
+import { SiNextdotjs } from "react-icons/si";
+import { FaCss3 } from "react-icons/fa";
+import { FaNodeJs } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+import { BsFiletypeSql } from "react-icons/bs";
+import { BiLogoPostgresql } from "react-icons/bi";
+import { SiPhp } from "react-icons/si";
 
 export default function Home() {
   return (
@@ -25,16 +34,44 @@ export default function Home() {
       <img src="/gilles-lambert-pb_lF8VWaPU-unsplash.jpg" alt="" />
       <section>
         <ul className="skills">
-          <li>Javascript</li>
-          <li>Typescript</li>
-          <li>React</li>
-          <li>NextJS</li>
-          <li>CSS</li>
-          <li>NodeJS</li>
-          <li>Github</li>
-          <li>SQL</li>
-          <li>PostgreSQL</li>
-          <li>PHP</li>
+          <li>
+            <IoLogoJavascript />
+            Javascript
+          </li>
+          <li>
+            <SiTypescript />
+            Typescript
+          </li>
+          <li>
+            <FaReact />
+            React
+          </li>
+          <li>
+            <SiNextdotjs />
+            NextJS
+          </li>
+          <li>
+            <FaCss3 />
+            CSS
+          </li>
+          <li>
+            <FaNodeJs />
+            NodeJS
+          </li>
+          <li>
+            <FaGithub />
+            Github
+          </li>
+          <li>
+            <BsFiletypeSql />
+            SQL
+          </li>
+          <li>
+            <BiLogoPostgresql />
+            PostgreSQL
+          </li>
+          <li><SiPhp />
+PHP</li>
         </ul>
       </section>
       <section className="latest_projects">

@@ -44,6 +44,8 @@ main{
     font-size: 12px;
     text-align: center;
     align-items: center;
+    display: flex;
+    gap: 8px;
 }
 .latest_projects {
     padding-bottom: 32px;
