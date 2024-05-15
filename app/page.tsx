@@ -32,7 +32,7 @@ export default function Home() {
           <li>CSS</li>
         </ul>
       </section>
-      <section>
+      <section className="latest_projects">
         <h3>Latest projects</h3>
         <div className="projects_list">
           <div className="project">
