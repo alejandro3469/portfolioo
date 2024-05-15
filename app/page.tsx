@@ -30,6 +30,10 @@ export default function Home() {
           <li>React</li>
           <li>NextJS</li>
           <li>CSS</li>
+          <li>NodeJS</li>
+          <li>Github</li>
+          <li>SQL</li>
+          <li>PHP</li>
         </ul>
       </section>
       <section className="latest_projects">
