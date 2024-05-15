@@ -33,7 +33,7 @@ main{
 }
 .skills {
     display: grid;
-    gap: 4px;
+    gap: 8px;
     grid-template-columns: repeat(3, 1fr);
 }
 .skills li{
