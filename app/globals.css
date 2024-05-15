@@ -47,3 +47,7 @@ main{
 .latest_projects {
     padding-bottom: 32px;
 }
+h3 {
+    padding: 16px 0;
+    text-transform: uppercase;
+}
