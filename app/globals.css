@@ -67,6 +67,7 @@ h3 {
 .banner_text {
     font-size: 32px;
     font-weight: 600;
+    line-height: 1.06;
 }
 .simple {
   background: linear-gradient(90deg, white 0%, #B1B1B1 100%);
