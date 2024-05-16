@@ -47,8 +47,8 @@ export default function Home() {
           <span className="simple">simple</span>
         </section>
         {/*<img src="/gilles-lambert-pb_lF8VWaPU-unsplash.jpg" alt="" />*/}
-        <section>
-          <span>Mu tools</span>
+        <section className="tools">
+          <span>My tools</span>
           <ul className="skills">
             <li>
               <IoLogoJavascript />
