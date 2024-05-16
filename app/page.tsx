@@ -10,6 +10,8 @@ import { FaGithub } from "react-icons/fa";
 import { BsFiletypeSql } from "react-icons/bs";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { SiPhp } from "react-icons/si";
+import { FaGitAlt } from "react-icons/fa";
+
 import { Roboto } from 'next/font/google'
 
 const roboto = Roboto({
@@ -65,6 +67,10 @@ export default function Home() {
             <li>
               <FaNodeJs />
               NodeJS
+            </li>
+            <li>
+              <FaGitAlt />
+              Git
             </li>
             <li>
               <FaGithub />
