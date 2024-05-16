@@ -11,15 +11,15 @@ import { BsFiletypeSql } from "react-icons/bs";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { SiPhp } from "react-icons/si";
 import { FaGitAlt } from "react-icons/fa";
+import { BiLogoVisualStudio } from "react-icons/bi";
 
-import { Roboto } from 'next/font/google'
+import { Roboto } from "next/font/google";
 
 const roboto = Roboto({
-  subsets: ['latin'],
-  weight: ['400', '500'],
-  display: 'swap',
-})
- 
+  subsets: ["latin"],
+  weight: ["400", "500"],
+  display: "swap",
+});
 
 export default function Home() {
   return (
@@ -39,10 +39,14 @@ export default function Home() {
           </div>
         </div>
         <section className="banner_text">
-          {"I design and "}<span className="simple">develop</span> {" experiences that make people's lives "}<span className="simple">simple</span>
+          {"I design and "}
+          <span className="simple">develop</span>{" "}
+          {" experiences that make people's lives "}
+          <span className="simple">simple</span>
         </section>
         {/*<img src="/gilles-lambert-pb_lF8VWaPU-unsplash.jpg" alt="" />*/}
         <section>
+          <span>Mu tools</span>
           <ul className="skills">
             <li>
               <IoLogoJavascript />
@@ -87,6 +91,10 @@ export default function Home() {
             <li>
               <SiPhp />
               PHP
+            </li>
+            <li>
+              <BiLogoVisualStudio />
+              Visual Studio
             </li>
           </ul>
         </section>
