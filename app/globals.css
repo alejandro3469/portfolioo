@@ -19,7 +19,13 @@ main {
   display: flex;
   flex-direction: column;
   color: white;
+  max-height: hidden;
   overflow-y: scroll;
+  position: relative;
+}
+.content {
+    overflow-y: scroll;
+    height: 100vh;
 }
 .projects_list {
   display: flex;
@@ -104,6 +110,7 @@ body {
   height: 100%;
   background: black;
   top: 0;
+  left: 0;
   z-index: -100;
 }
 

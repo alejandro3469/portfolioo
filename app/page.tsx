@@ -31,6 +31,7 @@ const handwritting = Nunito({
 export default function Home() {
   return (
     <main className={roboto.className}>
+      <div className="content">
       <div className="space">
   <div className="particle"></div>
   <div className="particle"></div>
@@ -150,6 +151,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+      </div>
     </main>
   );
 }
