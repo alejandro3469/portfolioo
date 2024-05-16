@@ -29,7 +29,7 @@ export default function Home() {
           </div>
         </div>
         <section className="banner_text">
-          {"I design and develop experiences that make people's lives "}<span className="simple">simple</span>
+          {"I design and "}<span className="simple">develop</span> {" experiences that make people's lives "}<span className="simple">simple</span>
         </section>
         {/*<img src="/gilles-lambert-pb_lF8VWaPU-unsplash.jpg" alt="" />*/}
         <section>
