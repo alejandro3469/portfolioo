@@ -68,7 +68,7 @@ h3 {
     font-size: 32px;
 }
 .simple {
-  background: linear-gradient(90deg, white 0%, #A1A1A1 100%);
+  background: linear-gradient(90deg, white 0%, #B1B1B1 100%);
   font-weight: 600;
   background-clip: text;
   -webkit-text-fill-color: transparent;
