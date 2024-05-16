@@ -13,6 +13,7 @@ import { SiPhp } from "react-icons/si";
 import { FaGitAlt } from "react-icons/fa";
 import { BiLogoVisualStudio } from "react-icons/bi";
 import { VscGithub } from "react-icons/vsc";
+import { FaSpotify } from "react-icons/fa";
 
 import { Roboto } from "next/font/google";
 
@@ -100,6 +101,10 @@ export default function Home() {
             <li>
               <BiLogoVisualStudio />
               Visual Studio
+            </li>
+            <li>
+              <BiLogoVisualStudio />
+              FaSpotify ^w^
             </li>
           </ul>
         </section>
