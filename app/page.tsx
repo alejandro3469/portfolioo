@@ -82,7 +82,10 @@ export default function Home() {
         <h3>Latest projects</h3>
         <div className="projects_list">
           <div className="project">
-            <img src="/ES STUDIO_ VISUAL IDENTITY & WEB DESIGN.jpg" alt="" />
+            <img
+              src="/Social Templates - Natural State Kinesiology.jpg"
+              alt=""
+            />
             <div>Lorem ipsum</div>
             <div>Excepteur sint occaecat cupidatat non proident</div>
           </div>
@@ -97,7 +100,7 @@ export default function Home() {
           </div>
           <div className="project">
             <img
-              src="/ES STUDIO_ VISUAL IDENTITY & WEB DESIGN (1).jpg"
+              src="/Social Templates - Natural State Kinesiology.jpg"
               alt=""
             />
             <div>Lorem ipsum</div>
