@@ -14,66 +14,69 @@ import { SiPhp } from "react-icons/si";
 export default function Home() {
   return (
     <main>
-      <div className="top">
-        <div>Alejandro Perez</div>
-        <div>
-          <ul className="social_media">
+      <div className="banner">
+        <div className="top">
+          <div>Alejandro Perez</div>
+          <div>
+            <ul className="social_media">
+              <li>
+                <FaGithub />
+              </li>
+              <li>
+                <FaLinkedin />
+              </li>
+            </ul>
+          </div>
+        </div>
+        <section>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </section>
+        <section>
+          <ul className="skills">
+            <li>
+              <IoLogoJavascript />
+              Javascript
+            </li>
+            <li>
+              <SiTypescript />
+              Typescript
+            </li>
+            <li>
+              <FaReact />
+              React
+            </li>
+            <li>
+              <SiNextdotjs />
+              NextJS
+            </li>
+            <li>
+              <FaCss3 />
+              CSS
+            </li>
+            <li>
+              <FaNodeJs />
+              NodeJS
+            </li>
             <li>
               <FaGithub />
+              Github
             </li>
             <li>
-              <FaLinkedin />
+              <BsFiletypeSql />
+              SQL
+            </li>
+            <li>
+              <BiLogoPostgresql />
+              PostgreSQL
+            </li>
+            <li>
+              <SiPhp />
+              PHP
             </li>
           </ul>
-        </div>
+        </section>
       </div>
-      <section>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua.
-      </section>
-      <img src="/gilles-lambert-pb_lF8VWaPU-unsplash.jpg" alt="" />
-      <section>
-        <ul className="skills">
-          <li>
-            <IoLogoJavascript />
-            Javascript
-          </li>
-          <li>
-            <SiTypescript />
-            Typescript
-          </li>
-          <li>
-            <FaReact />
-            React
-          </li>
-          <li>
-            <SiNextdotjs />
-            NextJS
-          </li>
-          <li>
-            <FaCss3 />
-            CSS
-          </li>
-          <li>
-            <FaNodeJs />
-            NodeJS
-          </li>
-          <li>
-            <FaGithub />
-            Github
-          </li>
-          <li>
-            <BsFiletypeSql />
-            SQL
-          </li>
-          <li>
-            <BiLogoPostgresql />
-            PostgreSQL
-          </li>
-          <li><SiPhp />
-PHP</li>
-        </ul>
-      </section>
       <section className="latest_projects">
         <h3>Latest projects</h3>
         <div className="projects_list">
