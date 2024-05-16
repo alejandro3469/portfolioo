@@ -15,11 +15,16 @@ import { BiLogoVisualStudio } from "react-icons/bi";
 import { VscGithub } from "react-icons/vsc";
 import { FaSpotify } from "react-icons/fa";
 
-import { Roboto } from "next/font/google";
+import { Roboto, Nunito } from "next/font/google";
 
 const roboto = Roboto({
   subsets: ["latin"],
   weight: ["400", "500"],
+  display: "swap",
+});
+const handwritting = Nunito({
+  subsets: ["latin"],
+  weight: ["400"],
   display: "swap",
 });
 
@@ -28,7 +33,7 @@ export default function Home() {
     <main className={roboto.className}>
       <div className="banner">
         <div className="top">
-          <div>Alejandro Perez</div>
+          <div className={handwritting.className}>Alejandro Perez</div>
           <div>
             <ul className="social_media">
               <li>
