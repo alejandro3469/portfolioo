@@ -53,7 +53,7 @@ export default function Home() {
         </section>
         {/*<img src="/gilles-lambert-pb_lF8VWaPU-unsplash.jpg" alt="" />*/}
         <section className="tools">
-          <span>My tools</span>
+          <h3>My tools</h3>
           <ul className="skills">
             <li>
               <IoLogoJavascript />

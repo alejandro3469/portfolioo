@@ -55,6 +55,8 @@ main{
 h3 {
     padding: 16px 0;
     text-transform: uppercase;
+    font-style: italic;
+    letter-spacing: 1.6px;
 }
 .banner {
     background-size: cover;
