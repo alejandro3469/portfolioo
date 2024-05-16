@@ -10,10 +10,18 @@ import { FaGithub } from "react-icons/fa";
 import { BsFiletypeSql } from "react-icons/bs";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { SiPhp } from "react-icons/si";
+import { Roboto } from 'next/font/google'
+
+const roboto = Roboto({
+  subsets: ['latin'],
+  weight: ['400', '500'],
+  display: 'swap',
+})
+ 
 
 export default function Home() {
   return (
-    <main>
+    <main className={roboto.className}>
       <div className="banner">
         <div className="top">
           <div>Alejandro Perez</div>
