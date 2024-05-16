@@ -108,8 +108,8 @@ export default function Home() {
               Visual Studio
             </li>
             <li>
-              <BiLogoVisualStudio />
-              FaSpotify ^w^
+              <FaSpotify />
+              Spotify ^w^
             </li>
           </ul>
         </section>
