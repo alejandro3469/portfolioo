@@ -12,6 +12,7 @@ import { BiLogoPostgresql } from "react-icons/bi";
 import { SiPhp } from "react-icons/si";
 import { FaGitAlt } from "react-icons/fa";
 import { BiLogoVisualStudio } from "react-icons/bi";
+import { VscGithub } from "react-icons/vsc";
 
 import { Roboto } from "next/font/google";
 
@@ -78,7 +79,11 @@ export default function Home() {
             </li>
             <li>
               <FaGithub />
-              Github
+              GitHub
+            </li>
+            <li>
+              <VscGithub />
+              GitHub Desktop
             </li>
             <li>
               <BsFiletypeSql />
