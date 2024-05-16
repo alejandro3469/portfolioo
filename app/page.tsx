@@ -32,125 +32,149 @@ export default function Home() {
   return (
     <main className={roboto.className}>
       <div className="content">
-      <div className="space">
-  <div className="particle"></div>
-  <div className="particle"></div>
-  <div className="particle"></div>
-  <div className="particle"></div>
-</div>
-      <div className="banner">
-        <div className="top">
-          <div className={handwritting.className}>Alejandro Perez</div>
-          <div>
-            <ul className="social_media">
+        <div className="space">
+          <div className="particle"></div>
+          <div className="particle"></div>
+          <div className="particle"></div>
+          <div className="particle"></div>
+        </div>
+        <div className="banner">
+          <div className="top">
+            <div className={handwritting.className}>Alejandro Perez</div>
+            <div>
+              <ul className="social_media">
+                <li>
+                  <FaGithub />
+                </li>
+                <li>
+                  <FaLinkedin />
+                </li>
+              </ul>
+            </div>
+          </div>
+          <section className="banner_text">
+            {"I design and "}
+            <span className="simple">develop</span>{" "}
+            {" experiences that make people's lives "}
+            <span className="simple">simple</span>
+          </section>
+          {/*<img src="/gilles-lambert-pb_lF8VWaPU-unsplash.jpg" alt="" />*/}
+          <section className="tools">
+            <h3>My tools</h3>
+            <ul className="skills">
+              <li>
+                <IoLogoJavascript />
+                Javascript
+              </li>
+              <li>
+                <SiTypescript />
+                Typescript
+              </li>
+              <li>
+                <FaReact />
+                React
+              </li>
+              <li>
+                <SiNextdotjs />
+                NextJS
+              </li>
+              <li>
+                <FaCss3 />
+                CSS
+              </li>
+              <li>
+                <FaNodeJs />
+                NodeJS
+              </li>
+              <li>
+                <FaGitAlt />
+                Git
+              </li>
               <li>
                 <FaGithub />
+                GitHub
               </li>
               <li>
-                <FaLinkedin />
+                <VscGithub />
+                GitHub Desktop
+              </li>
+              <li>
+                <BsFiletypeSql />
+                SQL
+              </li>
+              <li>
+                <BiLogoPostgresql />
+                PostgreSQL
+              </li>
+              <li>
+                <SiPhp />
+                PHP
+              </li>
+              <li>
+                <BiLogoVisualStudio />
+                Visual Studio
+              </li>
+              <li>
+                <FaSpotify />
+                Spotify ^w^
               </li>
             </ul>
-          </div>
+          </section>
         </div>
-        <section className="banner_text">
-          {"I design and "}
-          <span className="simple">develop</span>{" "}
-          {" experiences that make people's lives "}
-          <span className="simple">simple</span>
-        </section>
-        {/*<img src="/gilles-lambert-pb_lF8VWaPU-unsplash.jpg" alt="" />*/}
-        <section className="tools">
-          <h3>My tools</h3>
-          <ul className="skills">
-            <li>
-              <IoLogoJavascript />
-              Javascript
-            </li>
-            <li>
-              <SiTypescript />
-              Typescript
-            </li>
-            <li>
-              <FaReact />
-              React
-            </li>
-            <li>
-              <SiNextdotjs />
-              NextJS
-            </li>
-            <li>
-              <FaCss3 />
-              CSS
-            </li>
-            <li>
-              <FaNodeJs />
-              NodeJS
-            </li>
-            <li>
-              <FaGitAlt />
-              Git
-            </li>
-            <li>
-              <FaGithub />
-              GitHub
-            </li>
-            <li>
-              <VscGithub />
-              GitHub Desktop
-            </li>
-            <li>
-              <BsFiletypeSql />
-              SQL
-            </li>
-            <li>
-              <BiLogoPostgresql />
-              PostgreSQL
-            </li>
-            <li>
-              <SiPhp />
-              PHP
-            </li>
-            <li>
-              <BiLogoVisualStudio />
-              Visual Studio
-            </li>
-            <li>
-              <FaSpotify />
-              Spotify ^w^
-            </li>
-          </ul>
-        </section>
-      </div>
-      <section className="latest_projects">
-        <h3>Latest projects</h3>
-        <div className="projects_list">
-          <div className="project">
-            <img
-              src="/Social Templates - Natural State Kinesiology.jpg"
-              alt=""
-            />
-            <div>Lorem ipsum</div>
-            <div>Excepteur sint occaecat cupidatat non proident</div>
-          </div>
+        <section className="latest_projects">
+          <h3>Latest projects</h3>
+          <div className="projects_list">
+            <div className="project">
+              <img
+                src="/Social Templates - Natural State Kinesiology.jpg"
+                alt=""
+              />
+              <div>Lorem ipsum</div>
+              <div>Excepteur sint occaecat cupidatat non proident</div>
+            </div>
 
-          <div className="project">
-            <img
-              src="/Social Templates - Natural State Kinesiology.jpg"
-              alt=""
-            />
-            <div>Lorem ipsum</div>
-            <div>Excepteur sint occaecat cupidatat non proident</div>
+            <div className="project">
+              <img
+                src="/Social Templates - Natural State Kinesiology.jpg"
+                alt=""
+              />
+              <div>Lorem ipsum</div>
+              <div>Excepteur sint occaecat cupidatat non proident</div>
+            </div>
+            <div className="project">
+              <img
+                src="/Social Templates - Natural State Kinesiology.jpg"
+                alt=""
+              />
+              <div>Lorem ipsum</div>
+              <div>Excepteur sint occaecat cupidatat non proident</div>
+            </div>
+            <div className="project">
+              <img
+                src="/Social Templates - Natural State Kinesiology.jpg"
+                alt=""
+              />
+              <div>Lorem ipsum</div>
+              <div>Excepteur sint occaecat cupidatat non proident</div>
+            </div>
+            <div className="project">
+              <img
+                src="/Social Templates - Natural State Kinesiology.jpg"
+                alt=""
+              />
+              <div>Lorem ipsum</div>
+              <div>Excepteur sint occaecat cupidatat non proident</div>
+            </div>
+            <div className="project">
+              <img
+                src="/Social Templates - Natural State Kinesiology.jpg"
+                alt=""
+              />
+              <div>Lorem ipsum</div>
+              <div>Excepteur sint occaecat cupidatat non proident</div>
+            </div>
           </div>
-          <div className="project">
-            <img
-              src="/Social Templates - Natural State Kinesiology.jpg"
-              alt=""
-            />
-            <div>Lorem ipsum</div>
-            <div>Excepteur sint occaecat cupidatat non proident</div>
-          </div>
-        </div>
-      </section>
+        </section>
       </div>
     </main>
   );

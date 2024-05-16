@@ -24,8 +24,8 @@ main {
   position: relative;
 }
 .content {
-    overflow-y: scroll;
-    height: 100vh;
+  overflow-y: scroll;
+  height: 100vh;
 }
 .projects_list {
   display: flex;
