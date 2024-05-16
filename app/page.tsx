@@ -32,7 +32,7 @@ export default function Home() {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </section>
-        <img src="/illes-lambert-pb_lF8VWaPU-unsplash.jpg" alt="" />
+        <img src="/gilles-lambert-pb_lF8VWaPU-unsplash.jpg" alt="" />
         <section>
           <ul className="skills">
             <li>
