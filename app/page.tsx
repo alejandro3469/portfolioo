@@ -31,13 +31,14 @@ const handwritting = Nunito({
 export default function Home() {
   return (
     <main className={roboto.className}>
-      <div className="content">
-        <div className="space">
+       <div className="space">
           <div className="particle"></div>
           <div className="particle"></div>
           <div className="particle"></div>
           <div className="particle"></div>
         </div>
+      <div className="content">
+       
         <div className="banner">
           <div className="top">
             <div className={handwritting.className}>Alejandro Perez</div>
