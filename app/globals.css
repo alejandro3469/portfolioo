@@ -19,8 +19,8 @@ main {
   display: flex;
   flex-direction: column;
   color: white;
-  max-height: hidden;
-  overflow-y: scroll;
+  max-height: 100vh;
+  overflow-y: hidden;
   position: relative;
 }
 .content {
