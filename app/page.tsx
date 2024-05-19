@@ -45,10 +45,14 @@ export default function Home() {
             <div>
               <ul className="social_media">
                 <li>
-                <Link href="https://github.com/alejandro3469"><FaGithub /></Link>
+                  <Link href="https://github.com/alejandro3469">
+                    <FaGithub />
+                  </Link>
                 </li>
                 <li>
-                  <FaLinkedin />
+                  <Link href="https://www.linkedin.com/in/alejandro-p%C3%A9rez-22060b180/">
+                    <FaLinkedin />
+                  </Link>
                 </li>
               </ul>
             </div>
