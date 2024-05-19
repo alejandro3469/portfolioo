@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { FaLinkedin } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
 import { SiTypescript } from "react-icons/si";
@@ -31,14 +32,13 @@ const handwritting = Nunito({
 export default function Home() {
   return (
     <main className={roboto.className}>
-       <div className="space">
-          <div className="particle"></div>
-          <div className="particle"></div>
-          <div className="particle"></div>
-          <div className="particle"></div>
-        </div>
+      <div className="space">
+        <div className="particle"></div>
+        <div className="particle"></div>
+        <div className="particle"></div>
+        <div className="particle"></div>
+      </div>
       <div className="content">
-       
         <div className="banner">
           <div className="top">
             <div className={handwritting.className}>Alejandro Perez</div>
@@ -125,55 +125,37 @@ export default function Home() {
         <section className="latest_projects">
           <h3>Latest projects</h3>
           <div className="projects_list">
-            <div className="project">
-              <img
-                src="/Social Templates - Natural State Kinesiology.jpg"
-                alt=""
-              />
-              <div>Lorem ipsum</div>
-              <div>Excepteur sint occaecat cupidatat non proident</div>
-            </div>
+            <Link href="https://food-menu-mu.vercel.app/la-casa-de-las-gargolas/dashboard">
+              <div className="project">
+                <img
+                  src="/Social Templates - Natural State Kinesiology.jpg"
+                  alt=""
+                />
+                <div>Lorem ipsum</div>
+                <div>Excepteur sint occaecat cupidatat non proident</div>
+              </div>
+            </Link>
+            <Link href="https://event-chi-six.vercel.app/">
+              <div className="project">
+                <img
+                  src="/Social Templates - Natural State Kinesiology.jpg"
+                  alt=""
+                />
+                <div>Lorem ipsum</div>
+                <div>Excepteur sint occaecat cupidatat non proident</div>
+              </div>
+            </Link>
 
-            <div className="project">
-              <img
-                src="/Social Templates - Natural State Kinesiology.jpg"
-                alt=""
-              />
-              <div>Lorem ipsum</div>
-              <div>Excepteur sint occaecat cupidatat non proident</div>
-            </div>
-            <div className="project">
-              <img
-                src="/Social Templates - Natural State Kinesiology.jpg"
-                alt=""
-              />
-              <div>Lorem ipsum</div>
-              <div>Excepteur sint occaecat cupidatat non proident</div>
-            </div>
-            <div className="project">
-              <img
-                src="/Social Templates - Natural State Kinesiology.jpg"
-                alt=""
-              />
-              <div>Lorem ipsum</div>
-              <div>Excepteur sint occaecat cupidatat non proident</div>
-            </div>
-            <div className="project">
-              <img
-                src="/Social Templates - Natural State Kinesiology.jpg"
-                alt=""
-              />
-              <div>Lorem ipsum</div>
-              <div>Excepteur sint occaecat cupidatat non proident</div>
-            </div>
-            <div className="project">
-              <img
-                src="/Social Templates - Natural State Kinesiology.jpg"
-                alt=""
-              />
-              <div>Lorem ipsum</div>
-              <div>Excepteur sint occaecat cupidatat non proident</div>
-            </div>
+            <Link href="https://rest-countries-docs.vercel.app/">
+              <div className="project">
+                <img
+                  src="/Social Templates - Natural State Kinesiology.jpg"
+                  alt=""
+                />
+                <div>Lorem ipsum</div>
+                <div>Excepteur sint occaecat cupidatat non proident</div>
+              </div>
+            </Link>
           </div>
         </section>
       </div>
