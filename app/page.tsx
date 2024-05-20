@@ -132,7 +132,7 @@ export default function Home() {
             <Link href="https://food-menu-mu.vercel.app/la-casa-de-las-gargolas">
               <div className="project">
                 <img
-                  src="/Social Templates - Natural State Kinesiology.jpg"
+                  src="/albert-hu-RII9HuLDz4M-unsplash.jpg"
                   alt=""
                 />
                 <div>Food menu</div>
@@ -142,7 +142,7 @@ export default function Home() {
             <Link href="https://event-chi-six.vercel.app/">
               <div className="project">
                 <img
-                  src="/Social Templates - Natural State Kinesiology.jpg"
+                  src="/nathan-dumlao-w5hhoYM_JsU-unsplash (1).jpg"
                   alt=""
                 />
                 <div>Wedding website</div>
@@ -153,7 +153,7 @@ export default function Home() {
             <Link href="https://rest-countries-docs.vercel.app/">
               <div className="project">
                 <img
-                  src="/Social Templates - Natural State Kinesiology.jpg"
+                  src="/vladislav-klapin-YeO44yVTl20-unsplash.jpg"
                   alt=""
                 />
                 <div>Countries API</div>
