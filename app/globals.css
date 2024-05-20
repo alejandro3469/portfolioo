@@ -96,6 +96,10 @@ h3 {
   flex-direction: column;
   gap: 16px;
 }
+.project_title {
+  display: flex;
+  gap: 8px;
+}
 
 @keyframes particles {
   0% {
