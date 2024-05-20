@@ -136,7 +136,7 @@ export default function Home() {
                   alt=""
                 />
                 <div>Food menu</div>
-                <div>Excepteur sint occaecat cupidatat non proident</div>
+                <div>{"Food app for restaurants with dashboard to add, delete and edit dishes and categories' names, descriptions, prices and availability"}</div>
               </div>
             </Link>
             <Link href="https://event-chi-six.vercel.app/">
@@ -146,7 +146,7 @@ export default function Home() {
                   alt=""
                 />
                 <div>Wedding website</div>
-                <div>Excepteur sint occaecat cupidatat non proident</div>
+                <div>Website to display photos, wedding date, location and days left for couples</div>
               </div>
             </Link>
 
@@ -157,7 +157,7 @@ export default function Home() {
                   alt=""
                 />
                 <div>Countries API</div>
-                <div>Excepteur sint occaecat cupidatat non proident</div>
+                <div>REST API about countries data</div>
               </div>
             </Link>
           </div>
