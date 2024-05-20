@@ -129,13 +129,13 @@ export default function Home() {
         <section className="latest_projects">
           <h3>Latest projects</h3>
           <div className="projects_list">
-            <Link href="https://food-menu-mu.vercel.app/la-casa-de-las-gargolas/dashboard">
+            <Link href="https://food-menu-mu.vercel.app/la-casa-de-las-gargolas">
               <div className="project">
                 <img
                   src="/Social Templates - Natural State Kinesiology.jpg"
                   alt=""
                 />
-                <div>Lorem ipsum</div>
+                <div>Food menu</div>
                 <div>Excepteur sint occaecat cupidatat non proident</div>
               </div>
             </Link>
@@ -145,7 +145,7 @@ export default function Home() {
                   src="/Social Templates - Natural State Kinesiology.jpg"
                   alt=""
                 />
-                <div>Lorem ipsum</div>
+                <div>Wedding website</div>
                 <div>Excepteur sint occaecat cupidatat non proident</div>
               </div>
             </Link>
@@ -156,7 +156,7 @@ export default function Home() {
                   src="/Social Templates - Natural State Kinesiology.jpg"
                   alt=""
                 />
-                <div>Lorem ipsum</div>
+                <div>Countries API</div>
                 <div>Excepteur sint occaecat cupidatat non proident</div>
               </div>
             </Link>
