@@ -99,6 +99,8 @@ h3 {
 .project_title {
   display: flex;
   gap: 8px;
+  align-items: center;
+  text-decoration: underline;
 }
 
 @keyframes particles {
