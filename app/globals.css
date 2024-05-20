@@ -38,6 +38,14 @@ main {
   gap: 8px;
   min-width: 200px;
 }
+.project img{
+  display: none;
+  visibility: hidden;
+}
+.project .description {
+  font-size: 12px;
+}
+
 .skills {
   display: flex;
   flex-wrap: wrap;
@@ -98,7 +106,6 @@ h3 {
   }
 }
 
-
 .space {
   position: absolute;
 
@@ -107,7 +114,8 @@ h3 {
   background: black;
   top: 0;
   left: 0;
-  z-index: -100;overflow: hidden;
+  z-index: -100;
+  overflow: hidden;
 }
 
 .particle,
